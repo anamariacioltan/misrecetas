@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test CSS</title>
+
+    <style>
+        .box{
+            display: block;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+
+        .boxpink{background-color: pink;}
+        .boxgreen{background-color: green;}
+        .boxyellow{background-color: yellow;}
+
+        div>p{background-color: blueviolet;}
+        div, span{background-color: cyan;}
+
+        .caja .linea{
+            display: block;
+            padding: 40px;
+            font-size: 50px;
+            border-radius: 10px;
+        }
+        .linea{
+            text-decoration: underline;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box boxpink">Caja rosa</div>
+    <div class="box boxgreen">Caja verde</div>
+    <hr>
+    <div>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quia ad libero alias quae minus ipsam iusto eveniet repellat ab.</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt iste repellat eligendi aperiam quos, consectetur illum voluptatum unde consequuntur temporibus earum, illo optio animi quis commodi quaerat necessitatibus distinctio quae.</p>
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem numquam, odit aliquid quod tenetur ratione, rem suscipit veniam nam delectus sit corrupti repudiandae. Repellendus dolor aliquid dignissimos rerum, numquam reiciendis?</div>
+    <div class="linea">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis placeat praesentium in fuga itaque commodi, maxime aspernatur ab eius eum dolores voluptatum veritatis vel veniam tenetur accusantium debitis impedit sit?</div>
+</body>
+</html>
