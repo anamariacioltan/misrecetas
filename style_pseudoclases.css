@@ -1,0 +1,25 @@
+div.hover{
+    background-color: red;
+    color: white;
+}
+div.hover:hover{
+    background-color: yellow;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+div.child{
+    background-color: violet;
+}
+div.child p{
+    background-color: yellowgreen;
+}
+div.child p:first-child{
+background-color: pink;
+}
+div.child p:nth-child(3){
+    background-color: green;
+}

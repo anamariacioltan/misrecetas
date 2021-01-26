@@ -1,0 +1,24 @@
+.caja{
+    background-color: ivory;
+    color: white;
+    padding: 1em;
+    border:1px, solid black
+}
+
+.caja1{
+    position: relative;
+    left:10px;
+    background-color: darkorange;
+}
+
+.caja2{
+    background-color: cadetblue;
+}
+
+.caja3{
+    background-color: coral;
+}
+
+.caja4{
+    background-color: darkcyan;
+}
